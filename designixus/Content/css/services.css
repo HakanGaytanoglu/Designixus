@@ -1,0 +1,282 @@
+
+.divider {
+    width: 100½;
+    height: 100px;
+}
+
+.services-graphic {
+    width: 90%;
+    height: 600px;
+    margin:auto;
+  
+}
+
+.services-graphic-image {
+    width: 60%;
+    height: 600px;
+    background-image: url(../img/services-bg.jpg);
+    background-position: center;
+    float:left;
+
+}
+
+.services-graphic-desc {
+    width: 40%;
+    height: 600px;
+    background-color: #FFFFFF;
+    float:left;
+
+}
+
+.services-graphic-desc:hover {
+    width: 40%;
+    height: 600px;
+    background-color: #3498db;
+    float:left;
+    color:#FFFFFF;
+}
+
+
+.services-graphic-desc .services-graphic-desc-box  {
+width: 90%;
+height: 450px;
+font-weight: 300;
+margin:auto;
+text-align: left;
+font-size: 32px;
+}
+
+
+
+.services-graphic-desc .services-graphic-desc-box ul {
+    list-style-type: square;
+}
+
+.services-graphic-desc .services-graphic-desc-box ul li {
+    font-size: 18px;
+}
+
+/*-----------------------*/
+
+.services-3d {
+    width: 90%;
+    height: 600px;
+    margin:auto;
+    margin-top:100px;
+}
+
+
+.services-3d-desc {
+    width: 40%;
+    height: 600px;
+    background-color: #FFFFFF;
+    float:left;
+
+}
+
+.services-3d-desc:hover {
+    width: 40%;
+    height: 600px;
+    background-color: #3498db;
+    float:left;
+    color:#FFFFFF;
+}
+
+
+.services-3d .services-3d-desc .services-3d-desc-box   {
+    width: 90%;
+    height: 450px;
+    font-weight: 300;
+    margin:auto;
+    text-align: left;
+    font-size: 32px;
+}
+
+
+
+.services-3d .services-3d-desc .services-3d-desc-box ul {
+    list-style-type: square;
+}
+
+ 
+.services-3d .services-3d-desc .services-3d-desc-box ul li {
+    font-size: 18px;
+}
+
+
+
+.services-3d .services-3d-image {
+    width: 60%;
+    height: 600px;
+    background-image: url(../img/services-3d.jpg);
+    background-position: center;
+    float:left;
+   
+}
+
+/*-----------------------*/
+
+.services-digital {
+    width: 90%;
+    height: 600px;
+    margin:auto;
+  margin-top:100px;
+}
+
+.services-digital-image {
+    width: 60%;
+    height: 600px;
+    background-image: url(../img/services-digital.jpg);
+    background-position: center;
+    float:left;
+
+}
+
+.services-digital-desc {
+    width: 40%;
+    height: 600px;
+    background-color: #FFFFFF;
+    float:left;
+
+}
+
+.services-digital-desc:hover {
+    width: 40%;
+    height: 600px;
+    background-color: #3498db;
+    float:left;
+    color:#FFFFFF;
+}
+
+
+.services-digital-desc .services-digital-desc-box  {
+width: 90%;
+height: 450px;
+font-weight: 300;
+margin:auto;
+text-align: left;
+font-size: 32px;
+}
+
+
+
+.services-digital-desc .services-digital-desc-box ul {
+    list-style-type: square;
+}
+
+.services-digital-desc .services-digital-desc-box ul li {
+    font-size: 18px;
+}
+
+
+
+
+
+
+@media (max-width: 680px) {
+
+    .services-graphic-image {
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/services-bg.jpg);
+        background-position: center;
+     
+    }
+
+    .services-graphic-desc {
+        width: 100%;
+        height: 600px;
+        background-color: #FFFFFF;
+     
+    
+    }
+
+    .services-graphic-desc:hover {
+        width: 100%;
+        height:600px;
+        background-color: #3498db;
+        color:#FFFFFF;
+      
+    }
+
+    
+.services-graphic-desc .services-graphic-desc-box  {
+    width: 90%;
+    height: 450px;
+    font-weight: 300;
+    margin:auto;
+    text-align: left;
+    font-size: 24px;
+    }
+
+    .services-3d .services-3d-image {
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/services-3d.jpg);
+        background-position: center;
+      
+      
+    }
+
+ 
+
+    .services-3d-desc {
+        width: 100%;
+        height: 300px;
+        background-color: #FFFFFF;
+        margin-top:100px;
+    
+    }
+
+    .services-3d-desc:hover {
+        width: 100%;
+        height:300px;
+        background-color: #3498db;
+        color:#FFFFFF;
+        margin-top:100px; 
+    }
+
+    .services-3d .services-3d-desc .services-3d-desc-box   {
+        width: 90%;
+        height: 450px;
+        font-weight: 300;
+        margin:auto;
+        text-align: left;
+        font-size: 24px;
+    }
+  
+
+    .services-digital-image {
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/services-digital.jpg);
+        background-position: left;
+        margin-top:100px; 
+     
+    }
+
+    .services-digital-desc {
+        width: 100%;
+        height: 300px;
+        background-color: #FFFFFF;
+     
+    
+    }
+
+    .services-digital-desc:hover {
+        width: 100%;
+        height:300px;
+        background-color: #3498db;
+        color:#FFFFFF;
+      
+    }
+
+    .services-digital-desc .services-digital-desc-box  {
+        width: 90%;
+        height: 450px;
+        font-weight: 300;
+        margin:auto;
+        text-align: left;
+        font-size:24px;
+        }
+}
